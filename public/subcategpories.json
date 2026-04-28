@@ -1,0 +1,830 @@
+[
+    {
+        "id": 16,
+        "name": "AC Installation",
+        "slug": "ac-installation",
+        "category_id": 7,
+        "created_at": "2026-02-28T12:36:04.000Z",
+        "updated_at": "2026-02-28T12:36:04.000Z",
+        "category_name": "HVAC",
+        "category_slug": "hvac",
+        "_id": 16,
+        "category": {
+            "_id": 7,
+            "name": "HVAC",
+            "slug": "hvac"
+        },
+        "createdAt": "2026-02-28T12:36:04.000Z",
+        "updatedAt": "2026-02-28T12:36:04.000Z"
+    },
+    {
+        "id": 18,
+        "name": "AC Maintenance",
+        "slug": "ac-maintenance",
+        "category_id": 7,
+        "created_at": "2026-02-28T12:36:22.000Z",
+        "updated_at": "2026-02-28T12:36:22.000Z",
+        "category_name": "HVAC",
+        "category_slug": "hvac",
+        "_id": 18,
+        "category": {
+            "_id": 7,
+            "name": "HVAC",
+            "slug": "hvac"
+        },
+        "createdAt": "2026-02-28T12:36:22.000Z",
+        "updatedAt": "2026-02-28T12:36:22.000Z"
+    },
+    {
+        "id": 17,
+        "name": "AC Repair",
+        "slug": "ac-repair",
+        "category_id": 7,
+        "created_at": "2026-02-28T12:36:14.000Z",
+        "updated_at": "2026-02-28T12:36:14.000Z",
+        "category_name": "HVAC",
+        "category_slug": "hvac",
+        "_id": 17,
+        "category": {
+            "_id": 7,
+            "name": "HVAC",
+            "slug": "hvac"
+        },
+        "createdAt": "2026-02-28T12:36:14.000Z",
+        "updatedAt": "2026-02-28T12:36:14.000Z"
+    },
+    {
+        "id": 36,
+        "name": "Bathroom Fittings",
+        "slug": "bathroom-fittings",
+        "category_id": 2,
+        "created_at": "2026-02-28T12:38:57.000Z",
+        "updated_at": "2026-02-28T12:38:57.000Z",
+        "category_name": "Plumbing",
+        "category_slug": "plumbing",
+        "_id": 36,
+        "category": {
+            "_id": 2,
+            "name": "Plumbing",
+            "slug": "plumbing"
+        },
+        "createdAt": "2026-02-28T12:38:57.000Z",
+        "updatedAt": "2026-02-28T12:38:57.000Z"
+    },
+    {
+        "id": 10,
+        "name": "Ceiling Fan Installation",
+        "slug": "ceiling-fan-installation",
+        "category_id": 3,
+        "created_at": "2026-02-28T12:35:14.000Z",
+        "updated_at": "2026-02-28T12:35:14.000Z",
+        "category_name": "Electrical",
+        "category_slug": "electrical",
+        "_id": 10,
+        "category": {
+            "_id": 3,
+            "name": "Electrical",
+            "slug": "electrical"
+        },
+        "createdAt": "2026-02-28T12:35:14.000Z",
+        "updatedAt": "2026-02-28T12:35:14.000Z"
+    },
+    {
+        "id": 21,
+        "name": "Commercial HVAC",
+        "slug": "commercial-hvac",
+        "category_id": 7,
+        "created_at": "2026-02-28T12:36:48.000Z",
+        "updated_at": "2026-02-28T12:36:48.000Z",
+        "category_name": "HVAC",
+        "category_slug": "hvac",
+        "_id": 21,
+        "category": {
+            "_id": 7,
+            "name": "HVAC",
+            "slug": "hvac"
+        },
+        "createdAt": "2026-02-28T12:36:48.000Z",
+        "updatedAt": "2026-02-28T12:36:48.000Z"
+    },
+    {
+        "id": 2,
+        "name": "Custom Cabinets",
+        "slug": "custom-cabinets",
+        "category_id": 4,
+        "created_at": "2026-02-28T12:34:12.000Z",
+        "updated_at": "2026-02-28T12:34:12.000Z",
+        "category_name": "Carpentry",
+        "category_slug": "carpentry",
+        "_id": 2,
+        "category": {
+            "_id": 4,
+            "name": "Carpentry",
+            "slug": "carpentry"
+        },
+        "createdAt": "2026-02-28T12:34:12.000Z",
+        "updatedAt": "2026-02-28T12:34:12.000Z"
+    },
+    {
+        "id": 3,
+        "name": "Door Installation & Repair",
+        "slug": "door-installation-repair",
+        "category_id": 4,
+        "created_at": "2026-02-28T12:34:20.000Z",
+        "updated_at": "2026-02-28T12:34:20.000Z",
+        "category_name": "Carpentry",
+        "category_slug": "carpentry",
+        "_id": 3,
+        "category": {
+            "_id": 4,
+            "name": "Carpentry",
+            "slug": "carpentry"
+        },
+        "createdAt": "2026-02-28T12:34:20.000Z",
+        "updatedAt": "2026-02-28T12:34:20.000Z"
+    },
+    {
+        "id": 39,
+        "name": "Drain Cleaning",
+        "slug": "drain-cleaning",
+        "category_id": 2,
+        "created_at": "2026-02-28T12:39:16.000Z",
+        "updated_at": "2026-02-28T12:39:16.000Z",
+        "category_name": "Plumbing",
+        "category_slug": "plumbing",
+        "_id": 39,
+        "category": {
+            "_id": 2,
+            "name": "Plumbing",
+            "slug": "plumbing"
+        },
+        "createdAt": "2026-02-28T12:39:16.000Z",
+        "updatedAt": "2026-02-28T12:39:16.000Z"
+    },
+    {
+        "id": 19,
+        "name": "Duct Installation",
+        "slug": "duct-installation",
+        "category_id": 7,
+        "created_at": "2026-02-28T12:36:31.000Z",
+        "updated_at": "2026-02-28T12:36:31.000Z",
+        "category_name": "HVAC",
+        "category_slug": "hvac",
+        "_id": 19,
+        "category": {
+            "_id": 7,
+            "name": "HVAC",
+            "slug": "hvac"
+        },
+        "createdAt": "2026-02-28T12:36:31.000Z",
+        "updatedAt": "2026-02-28T12:36:31.000Z"
+    },
+    {
+        "id": 11,
+        "name": "Electrical Panel Upgrade",
+        "slug": "electrical-panel-upgrade",
+        "category_id": 3,
+        "created_at": "2026-02-28T12:35:22.000Z",
+        "updated_at": "2026-02-28T12:35:22.000Z",
+        "category_name": "Electrical",
+        "category_slug": "electrical",
+        "_id": 11,
+        "category": {
+            "_id": 3,
+            "name": "Electrical",
+            "slug": "electrical"
+        },
+        "createdAt": "2026-02-28T12:35:22.000Z",
+        "updatedAt": "2026-02-28T12:35:22.000Z"
+    },
+    {
+        "id": 15,
+        "name": "Extensions",
+        "slug": "extensions",
+        "category_id": 8,
+        "created_at": "2026-02-28T12:35:56.000Z",
+        "updated_at": "2026-02-28T12:35:56.000Z",
+        "category_name": "General Building",
+        "category_slug": "general-building",
+        "_id": 15,
+        "category": {
+            "_id": 8,
+            "name": "General Building",
+            "slug": "general-building"
+        },
+        "createdAt": "2026-02-28T12:35:56.000Z",
+        "updatedAt": "2026-02-28T12:35:56.000Z"
+    },
+    {
+        "id": 30,
+        "name": "Exterior Painting",
+        "slug": "exterior-painting",
+        "category_id": 5,
+        "created_at": "2026-02-28T12:37:47.000Z",
+        "updated_at": "2026-02-28T12:37:47.000Z",
+        "category_name": "Painting & Decorating",
+        "category_slug": "painting-decorating",
+        "_id": 30,
+        "category": {
+            "_id": 5,
+            "name": "Painting & Decorating",
+            "slug": "painting-decorating"
+        },
+        "createdAt": "2026-02-28T12:37:47.000Z",
+        "updatedAt": "2026-02-28T12:37:47.000Z"
+    },
+    {
+        "id": 28,
+        "name": "Fencing",
+        "slug": "fencing",
+        "category_id": 6,
+        "created_at": "2026-02-28T12:37:33.000Z",
+        "updated_at": "2026-02-28T12:37:33.000Z",
+        "category_name": "Landscaping",
+        "category_slug": "landscaping",
+        "_id": 28,
+        "category": {
+            "_id": 6,
+            "name": "Landscaping",
+            "slug": "landscaping"
+        },
+        "createdAt": "2026-02-28T12:37:33.000Z",
+        "updatedAt": "2026-02-28T12:37:33.000Z"
+    },
+    {
+        "id": 6,
+        "name": "Furniture Making",
+        "slug": "furniture-making",
+        "category_id": 4,
+        "created_at": "2026-02-28T12:34:40.000Z",
+        "updated_at": "2026-02-28T12:34:40.000Z",
+        "category_name": "Carpentry",
+        "category_slug": "carpentry",
+        "_id": 6,
+        "category": {
+            "_id": 4,
+            "name": "Carpentry",
+            "slug": "carpentry"
+        },
+        "createdAt": "2026-02-28T12:34:40.000Z",
+        "updatedAt": "2026-02-28T12:34:40.000Z"
+    },
+    {
+        "id": 23,
+        "name": "Garden Design",
+        "slug": "garden-design",
+        "category_id": 6,
+        "created_at": "2026-02-28T12:37:02.000Z",
+        "updated_at": "2026-02-28T12:37:02.000Z",
+        "category_name": "Landscaping",
+        "category_slug": "landscaping",
+        "_id": 23,
+        "category": {
+            "_id": 6,
+            "name": "Landscaping",
+            "slug": "landscaping"
+        },
+        "createdAt": "2026-02-28T12:37:02.000Z",
+        "updatedAt": "2026-02-28T12:37:02.000Z"
+    },
+    {
+        "id": 12,
+        "name": "Generator Installation",
+        "slug": "generator-installation",
+        "category_id": 3,
+        "created_at": "2026-02-28T12:35:31.000Z",
+        "updated_at": "2026-02-28T12:35:31.000Z",
+        "category_name": "Electrical",
+        "category_slug": "electrical",
+        "_id": 12,
+        "category": {
+            "_id": 3,
+            "name": "Electrical",
+            "slug": "electrical"
+        },
+        "createdAt": "2026-02-28T12:35:31.000Z",
+        "updatedAt": "2026-02-28T12:35:31.000Z"
+    },
+    {
+        "id": 46,
+        "name": "Gutter Installation",
+        "slug": "gutter-installation",
+        "category_id": 1,
+        "created_at": "2026-02-28T12:40:03.000Z",
+        "updated_at": "2026-02-28T12:40:03.000Z",
+        "category_name": "Roofing",
+        "category_slug": "roofing",
+        "_id": 46,
+        "category": {
+            "_id": 1,
+            "name": "Roofing",
+            "slug": "roofing"
+        },
+        "createdAt": "2026-02-28T12:40:03.000Z",
+        "updatedAt": "2026-02-28T12:40:03.000Z"
+    },
+    {
+        "id": 22,
+        "name": "Heating System Installation",
+        "slug": "heating-system-installation",
+        "category_id": 7,
+        "created_at": "2026-02-28T12:36:54.000Z",
+        "updated_at": "2026-02-28T12:36:54.000Z",
+        "category_name": "HVAC",
+        "category_slug": "hvac",
+        "_id": 22,
+        "category": {
+            "_id": 7,
+            "name": "HVAC",
+            "slug": "hvac"
+        },
+        "createdAt": "2026-02-28T12:36:54.000Z",
+        "updatedAt": "2026-02-28T12:36:54.000Z"
+    },
+    {
+        "id": 13,
+        "name": "Home Construction",
+        "slug": "home-construction",
+        "category_id": 8,
+        "created_at": "2026-02-28T12:35:41.000Z",
+        "updated_at": "2026-02-28T12:35:41.000Z",
+        "category_name": "General Building",
+        "category_slug": "general-building",
+        "_id": 13,
+        "category": {
+            "_id": 8,
+            "name": "General Building",
+            "slug": "general-building"
+        },
+        "createdAt": "2026-02-28T12:35:41.000Z",
+        "updatedAt": "2026-02-28T12:35:41.000Z"
+    },
+    {
+        "id": 29,
+        "name": "Interior Painting",
+        "slug": "interior-painting",
+        "category_id": 5,
+        "created_at": "2026-02-28T12:37:40.000Z",
+        "updated_at": "2026-02-28T12:37:40.000Z",
+        "category_name": "Painting & Decorating",
+        "category_slug": "painting-decorating",
+        "_id": 29,
+        "category": {
+            "_id": 5,
+            "name": "Painting & Decorating",
+            "slug": "painting-decorating"
+        },
+        "createdAt": "2026-02-28T12:37:40.000Z",
+        "updatedAt": "2026-02-28T12:37:40.000Z"
+    },
+    {
+        "id": 25,
+        "name": "Irrigation Systems",
+        "slug": "irrigation-systems",
+        "category_id": 6,
+        "created_at": "2026-02-28T12:37:15.000Z",
+        "updated_at": "2026-02-28T12:37:15.000Z",
+        "category_name": "Landscaping",
+        "category_slug": "landscaping",
+        "_id": 25,
+        "category": {
+            "_id": 6,
+            "name": "Landscaping",
+            "slug": "landscaping"
+        },
+        "createdAt": "2026-02-28T12:37:15.000Z",
+        "updatedAt": "2026-02-28T12:37:15.000Z"
+    },
+    {
+        "id": 37,
+        "name": "Kitchen Plumbing",
+        "slug": "kitchen-plumbing",
+        "category_id": 2,
+        "created_at": "2026-02-28T12:39:04.000Z",
+        "updated_at": "2026-02-28T12:39:04.000Z",
+        "category_name": "Plumbing",
+        "category_slug": "plumbing",
+        "_id": 37,
+        "category": {
+            "_id": 2,
+            "name": "Plumbing",
+            "slug": "plumbing"
+        },
+        "createdAt": "2026-02-28T12:39:04.000Z",
+        "updatedAt": "2026-02-28T12:39:04.000Z"
+    },
+    {
+        "id": 24,
+        "name": "Lawn Mowing",
+        "slug": "lawn-mowing",
+        "category_id": 6,
+        "created_at": "2026-02-28T12:37:08.000Z",
+        "updated_at": "2026-02-28T12:37:08.000Z",
+        "category_name": "Landscaping",
+        "category_slug": "landscaping",
+        "_id": 24,
+        "category": {
+            "_id": 6,
+            "name": "Landscaping",
+            "slug": "landscaping"
+        },
+        "createdAt": "2026-02-28T12:37:08.000Z",
+        "updatedAt": "2026-02-28T12:37:08.000Z"
+    },
+    {
+        "id": 35,
+        "name": "Leak Repair",
+        "slug": "leak-repair",
+        "category_id": 2,
+        "created_at": "2026-02-28T12:38:51.000Z",
+        "updated_at": "2026-02-28T12:38:51.000Z",
+        "category_name": "Plumbing",
+        "category_slug": "plumbing",
+        "_id": 35,
+        "category": {
+            "_id": 2,
+            "name": "Plumbing",
+            "slug": "plumbing"
+        },
+        "createdAt": "2026-02-28T12:38:51.000Z",
+        "updatedAt": "2026-02-28T12:38:51.000Z"
+    },
+    {
+        "id": 8,
+        "name": "Lighting Installation",
+        "slug": "lighting-installation",
+        "category_id": 3,
+        "created_at": "2026-02-28T12:34:58.000Z",
+        "updated_at": "2026-02-28T12:34:58.000Z",
+        "category_name": "Electrical",
+        "category_slug": "electrical",
+        "_id": 8,
+        "category": {
+            "_id": 3,
+            "name": "Electrical",
+            "slug": "electrical"
+        },
+        "createdAt": "2026-02-28T12:34:58.000Z",
+        "updatedAt": "2026-02-28T12:34:58.000Z"
+    },
+    {
+        "id": 43,
+        "name": "Metal Roofing",
+        "slug": "metal-roofing",
+        "category_id": 1,
+        "created_at": "2026-02-28T12:39:44.000Z",
+        "updated_at": "2026-02-28T12:39:44.000Z",
+        "category_name": "Roofing",
+        "category_slug": "roofing",
+        "_id": 43,
+        "category": {
+            "_id": 1,
+            "name": "Roofing",
+            "slug": "roofing"
+        },
+        "createdAt": "2026-02-28T12:39:44.000Z",
+        "updatedAt": "2026-02-28T12:39:44.000Z"
+    },
+    {
+        "id": 27,
+        "name": "Patio & Paving",
+        "slug": "patio-paving",
+        "category_id": 6,
+        "created_at": "2026-02-28T12:37:28.000Z",
+        "updated_at": "2026-02-28T12:37:28.000Z",
+        "category_name": "Landscaping",
+        "category_slug": "landscaping",
+        "_id": 27,
+        "category": {
+            "_id": 6,
+            "name": "Landscaping",
+            "slug": "landscaping"
+        },
+        "createdAt": "2026-02-28T12:37:28.000Z",
+        "updatedAt": "2026-02-28T12:37:28.000Z"
+    },
+    {
+        "id": 34,
+        "name": "Pipe Installation",
+        "slug": "pipe-installation",
+        "category_id": 2,
+        "created_at": "2026-02-28T12:38:18.000Z",
+        "updated_at": "2026-02-28T12:38:27.000Z",
+        "category_name": "Plumbing",
+        "category_slug": "plumbing",
+        "_id": 34,
+        "category": {
+            "_id": 2,
+            "name": "Plumbing",
+            "slug": "plumbing"
+        },
+        "createdAt": "2026-02-28T12:38:18.000Z",
+        "updatedAt": "2026-02-28T12:38:27.000Z"
+    },
+    {
+        "id": 14,
+        "name": "Renovations",
+        "slug": "renovations",
+        "category_id": 8,
+        "created_at": "2026-02-28T12:35:49.000Z",
+        "updated_at": "2026-02-28T12:35:49.000Z",
+        "category_name": "General Building",
+        "category_slug": "general-building",
+        "_id": 14,
+        "category": {
+            "_id": 8,
+            "name": "General Building",
+            "slug": "general-building"
+        },
+        "createdAt": "2026-02-28T12:35:49.000Z",
+        "updatedAt": "2026-02-28T12:35:49.000Z"
+    },
+    {
+        "id": 47,
+        "name": "Roof Inspection",
+        "slug": "roof-inspection",
+        "category_id": 1,
+        "created_at": "2026-02-28T12:40:10.000Z",
+        "updated_at": "2026-02-28T12:40:10.000Z",
+        "category_name": "Roofing",
+        "category_slug": "roofing",
+        "_id": 47,
+        "category": {
+            "_id": 1,
+            "name": "Roofing",
+            "slug": "roofing"
+        },
+        "createdAt": "2026-02-28T12:40:10.000Z",
+        "updatedAt": "2026-02-28T12:40:10.000Z"
+    },
+    {
+        "id": 41,
+        "name": "Roof Installation",
+        "slug": "roof-installation",
+        "category_id": 1,
+        "created_at": "2026-02-28T12:39:30.000Z",
+        "updated_at": "2026-02-28T12:39:30.000Z",
+        "category_name": "Roofing",
+        "category_slug": "roofing",
+        "_id": 41,
+        "category": {
+            "_id": 1,
+            "name": "Roofing",
+            "slug": "roofing"
+        },
+        "createdAt": "2026-02-28T12:39:30.000Z",
+        "updatedAt": "2026-02-28T12:39:30.000Z"
+    },
+    {
+        "id": 42,
+        "name": "Roof Repair",
+        "slug": "roof-repair",
+        "category_id": 1,
+        "created_at": "2026-02-28T12:39:37.000Z",
+        "updated_at": "2026-02-28T12:39:37.000Z",
+        "category_name": "Roofing",
+        "category_slug": "roofing",
+        "_id": 42,
+        "category": {
+            "_id": 1,
+            "name": "Roofing",
+            "slug": "roofing"
+        },
+        "createdAt": "2026-02-28T12:39:37.000Z",
+        "updatedAt": "2026-02-28T12:39:37.000Z"
+    },
+    {
+        "id": 40,
+        "name": "Sewer Line Repair",
+        "slug": "sewer-line-repair",
+        "category_id": 2,
+        "created_at": "2026-02-28T12:39:22.000Z",
+        "updated_at": "2026-02-28T12:39:22.000Z",
+        "category_name": "Plumbing",
+        "category_slug": "plumbing",
+        "_id": 40,
+        "category": {
+            "_id": 2,
+            "name": "Plumbing",
+            "slug": "plumbing"
+        },
+        "createdAt": "2026-02-28T12:39:22.000Z",
+        "updatedAt": "2026-02-28T12:39:22.000Z"
+    },
+    {
+        "id": 9,
+        "name": "Switches & Sockets",
+        "slug": "switches-sockets",
+        "category_id": 3,
+        "created_at": "2026-02-28T12:35:07.000Z",
+        "updated_at": "2026-02-28T12:35:07.000Z",
+        "category_name": "Electrical",
+        "category_slug": "electrical",
+        "_id": 9,
+        "category": {
+            "_id": 3,
+            "name": "Electrical",
+            "slug": "electrical"
+        },
+        "createdAt": "2026-02-28T12:35:07.000Z",
+        "updatedAt": "2026-02-28T12:35:07.000Z"
+    },
+    {
+        "id": 31,
+        "name": "Texture & Wall Design",
+        "slug": "texture-wall-design",
+        "category_id": 5,
+        "created_at": "2026-02-28T12:37:53.000Z",
+        "updated_at": "2026-02-28T12:37:53.000Z",
+        "category_name": "Painting & Decorating",
+        "category_slug": "painting-decorating",
+        "_id": 31,
+        "category": {
+            "_id": 5,
+            "name": "Painting & Decorating",
+            "slug": "painting-decorating"
+        },
+        "createdAt": "2026-02-28T12:37:53.000Z",
+        "updatedAt": "2026-02-28T12:37:53.000Z"
+    },
+    {
+        "id": 44,
+        "name": "Tile Roofing",
+        "slug": "tile-roofing",
+        "category_id": 1,
+        "created_at": "2026-02-28T12:39:51.000Z",
+        "updated_at": "2026-02-28T12:39:51.000Z",
+        "category_name": "Roofing",
+        "category_slug": "roofing",
+        "_id": 44,
+        "category": {
+            "_id": 1,
+            "name": "Roofing",
+            "slug": "roofing"
+        },
+        "createdAt": "2026-02-28T12:39:51.000Z",
+        "updatedAt": "2026-02-28T12:39:51.000Z"
+    },
+    {
+        "id": 26,
+        "name": "Tree Cutting & Trimming",
+        "slug": "tree-cutting-trimming",
+        "category_id": 6,
+        "created_at": "2026-02-28T12:37:21.000Z",
+        "updated_at": "2026-02-28T12:37:21.000Z",
+        "category_name": "Landscaping",
+        "category_slug": "landscaping",
+        "_id": 26,
+        "category": {
+            "_id": 6,
+            "name": "Landscaping",
+            "slug": "landscaping"
+        },
+        "createdAt": "2026-02-28T12:37:21.000Z",
+        "updatedAt": "2026-02-28T12:37:21.000Z"
+    },
+    {
+        "id": 20,
+        "name": "Ventilation Systems",
+        "slug": "ventilation-systems",
+        "category_id": 7,
+        "created_at": "2026-02-28T12:36:38.000Z",
+        "updated_at": "2026-02-28T12:36:38.000Z",
+        "category_name": "HVAC",
+        "category_slug": "hvac",
+        "_id": 20,
+        "category": {
+            "_id": 7,
+            "name": "HVAC",
+            "slug": "hvac"
+        },
+        "createdAt": "2026-02-28T12:36:38.000Z",
+        "updatedAt": "2026-02-28T12:36:38.000Z"
+    },
+    {
+        "id": 32,
+        "name": "Wallpaper Installation",
+        "slug": "wallpaper-installation",
+        "category_id": 5,
+        "created_at": "2026-02-28T12:38:01.000Z",
+        "updated_at": "2026-02-28T12:38:01.000Z",
+        "category_name": "Painting & Decorating",
+        "category_slug": "painting-decorating",
+        "_id": 32,
+        "category": {
+            "_id": 5,
+            "name": "Painting & Decorating",
+            "slug": "painting-decorating"
+        },
+        "createdAt": "2026-02-28T12:38:01.000Z",
+        "updatedAt": "2026-02-28T12:38:01.000Z"
+    },
+    {
+        "id": 38,
+        "name": "Water Heater Installation",
+        "slug": "water-heater-installation",
+        "category_id": 2,
+        "created_at": "2026-02-28T12:39:10.000Z",
+        "updated_at": "2026-02-28T12:39:10.000Z",
+        "category_name": "Plumbing",
+        "category_slug": "plumbing",
+        "_id": 38,
+        "category": {
+            "_id": 2,
+            "name": "Plumbing",
+            "slug": "plumbing"
+        },
+        "createdAt": "2026-02-28T12:39:10.000Z",
+        "updatedAt": "2026-02-28T12:39:10.000Z"
+    },
+    {
+        "id": 45,
+        "name": "Waterproofing",
+        "slug": "waterproofing",
+        "category_id": 1,
+        "created_at": "2026-02-28T12:39:56.000Z",
+        "updated_at": "2026-02-28T12:39:56.000Z",
+        "category_name": "Roofing",
+        "category_slug": "roofing",
+        "_id": 45,
+        "category": {
+            "_id": 1,
+            "name": "Roofing",
+            "slug": "roofing"
+        },
+        "createdAt": "2026-02-28T12:39:56.000Z",
+        "updatedAt": "2026-02-28T12:39:56.000Z"
+    },
+    {
+        "id": 4,
+        "name": "Window Frames",
+        "slug": "window-frames",
+        "category_id": 4,
+        "created_at": "2026-02-28T12:34:26.000Z",
+        "updated_at": "2026-02-28T12:34:26.000Z",
+        "category_name": "Carpentry",
+        "category_slug": "carpentry",
+        "_id": 4,
+        "category": {
+            "_id": 4,
+            "name": "Carpentry",
+            "slug": "carpentry"
+        },
+        "createdAt": "2026-02-28T12:34:26.000Z",
+        "updatedAt": "2026-02-28T12:34:26.000Z"
+    },
+    {
+        "id": 7,
+        "name": "Wiring & Rewiring",
+        "slug": "wiring-rewiring",
+        "category_id": 3,
+        "created_at": "2026-02-28T12:34:50.000Z",
+        "updated_at": "2026-02-28T12:34:50.000Z",
+        "category_name": "Electrical",
+        "category_slug": "electrical",
+        "_id": 7,
+        "category": {
+            "_id": 3,
+            "name": "Electrical",
+            "slug": "electrical"
+        },
+        "createdAt": "2026-02-28T12:34:50.000Z",
+        "updatedAt": "2026-02-28T12:34:50.000Z"
+    },
+    {
+        "id": 33,
+        "name": "Wood Polishing",
+        "slug": "wood-polishing",
+        "category_id": 5,
+        "created_at": "2026-02-28T12:38:08.000Z",
+        "updated_at": "2026-02-28T12:38:08.000Z",
+        "category_name": "Painting & Decorating",
+        "category_slug": "painting-decorating",
+        "_id": 33,
+        "category": {
+            "_id": 5,
+            "name": "Painting & Decorating",
+            "slug": "painting-decorating"
+        },
+        "createdAt": "2026-02-28T12:38:08.000Z",
+        "updatedAt": "2026-02-28T12:38:08.000Z"
+    },
+    {
+        "id": 5,
+        "name": "Wooden Flooring",
+        "slug": "wooden-flooring",
+        "category_id": 4,
+        "created_at": "2026-02-28T12:34:33.000Z",
+        "updated_at": "2026-02-28T12:34:33.000Z",
+        "category_name": "Carpentry",
+        "category_slug": "carpentry",
+        "_id": 5,
+        "category": {
+            "_id": 4,
+            "name": "Carpentry",
+            "slug": "carpentry"
+        },
+        "createdAt": "2026-02-28T12:34:33.000Z",
+        "updatedAt": "2026-02-28T12:34:33.000Z"
+    }
+]
