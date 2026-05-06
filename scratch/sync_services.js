@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 function syncServices() {
-    const servicesPath = path.join(__dirname, '../public/services.json');
+    const servicesPath = path.join(__dirname, '../public/cities.json');
     const mappedPath = path.join(__dirname, '../public/services_mapped.json');
 
     if (!fs.existsSync(servicesPath)) {

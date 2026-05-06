@@ -2,30 +2,49 @@ const XLSX = require('xlsx');
 const fs = require('fs');
 const path = require('path');
 
-const workbook = XLSX.readFile(path.join(__dirname, '../public/cities.xlsx'));
-const sheetName = workbook.SheetNames[0];
-const worksheet = workbook.Sheets[sheetName];
+const xlsxPath = '/Users/flymedia/Desktop/gemini/scratch/newcities.xlsx';
+const outputPath = '/Users/flymedia/Desktop/gemini/public/cities.json';
 
-// Use header: 1 to get raw rows
-const rows = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
+function convertXlsxToJson() {
+  if (!fs.existsSync(xlsxPath)) {
+    console.error(`File not found: ${xlsxPath}`);
+    return;
+  }
 
-const result = [];
+  const workbook = XLSX.readFile(xlsxPath);
+  const sheetName = workbook.SheetNames[0];
+  const worksheet = workbook.Sheets[sheetName];
+  const data = XLSX.utils.sheet_to_json(worksheet);
 
-// Skip header if it exists. User said 1st col is location, 2nd is title.
-for (let i = 1; i < rows.length; i++) {
-    const row = rows[i];
-    if (row && row.length >= 2) {
-        const location = row[0] ? row[0].toString().trim() : '';
-        const title = row[1] ? row[1].toString().trim() : '';
-        
-        if (location && title && location.toLowerCase() !== 'location') {
-            result.push({
-                location: location,
-                title: title
-            });
-        }
+  const result = {};
+
+  data.forEach(row => {
+    const location = row['Location'];
+    const keywords = row['Keywords'];
+
+    if (location && keywords) {
+      if (!result[location]) {
+        result[location] = [];
+      }
+      const locationname = location.split("in")[1].trim();
+      // Extract the service name from keywords (assuming it's after the last comma)
+      const keywordParts = keywords.split(',');
+      const serviceName = keywordParts[keywordParts.length - 1].trim();
+
+      if (!result[location].includes(serviceName)) {
+        result[locationname].push(serviceName);
+      }
     }
+  });
+
+  // Sort services within each location
+  for (const location in result) {
+    result[location].sort();
+  }
+
+  fs.writeFileSync(outputPath, JSON.stringify(result, null, 2));
+  console.log(`Successfully converted ${xlsxPath} to ${outputPath}`);
+  console.log(`Found ${Object.keys(result).length} locations.`);
 }
 
-fs.writeFileSync(path.join(__dirname, '../public/cities.json'), JSON.stringify(result, null, 2));
-console.log(`Successfully converted ${result.length} cities to cities.json`);
+convertXlsxToJson();
